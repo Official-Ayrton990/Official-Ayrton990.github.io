@@ -1,0 +1,20 @@
+New update is out!
+
+**Warning: restore boot and dtbo backup, if you don't have it, please dirty flash your rom**
+
+Changelog:
+
+- Upstreamed to 4.14.181 from android-linux-stable
+- Embedded dtbo.img into the kernel, this will let modders to alter the dtbo partition without messing with fp.
+- Updated sched_energy driver
+- Checkout to sched_energy to common kernel android 4.14
+
+EDIT:
+- Fixed battery drain
+- Fixed frequencies stuck at 1056MHz
+- Set big cores to 825MHz min frequency to match prime core
+
+Bugs:
+
+- Spotify streaming by bluetooth may fail due to s2idle (this is an app bug, because it wasn't present in old releases of QK) reported by some few users.
+- Vibration may be weak on gestures and navigation, but on calls and alarms should be fine.
