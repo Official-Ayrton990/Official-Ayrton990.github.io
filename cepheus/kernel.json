@@ -1,0 +1,13 @@
+{
+  "kernel": {
+    "name": "Quantic Kernel",
+    "version": "r5",
+    "link": "https://github.com/Official-Ayrton990/QK-AOSP-Cepheus/releases/download/r5/Quantic-Kernel_r5.zip",
+    "changelog_url": "https://www.carlosayrton.com/changelog_quantic.txt",
+    "date": "2020-04-29",
+    "sha1": "6070456ffa25d391fd36d8835065db50b59e4875"
+  },
+  "support": {
+    "link": "https://t.me/QuanticKernel"
+  }
+}
