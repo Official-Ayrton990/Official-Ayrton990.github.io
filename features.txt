@@ -1,0 +1,14 @@
+Features:
+• Improves battery life drastically due to some sched optimizations
+• Using PELT Scheduler by default (Performance not affected by CAF Upstreams)
+• Upstreamed to latest LTS and CAF Tag always
+• For some users meme feature, includes overclock up to 810MHz on GPU
+• Uses Custom Implementation of cpu_input_boost managed by kernelspace rather than CAF Userspace boost
+• Disables the posibility of miui being controlling the core control
+• Jitter below 0.5 ms
+• MQ-IOSCHED that suits perfect to sm8150 devices
+• ZRAM up to 2GB with LZ4 crypto algorithm
+• Sound Control
+• New KCAL
+• Module that automatically disables FOD dimlayer (to enhace flash and forget experience)
+• Enable the use of batteries with custom capacity

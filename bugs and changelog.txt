@@ -1,0 +1,31 @@
+Bugs:
+• DC-Dimming or Anti-Flicker Screen not working
+• Double Tap to Wake not working (dt2w)
+
+Changelog of r22:
+• All r21 and below changelog (check github releases)
+• Disabled SELinux Audit spam log
+• Reworked GPU Frequency table to min 180MHz to Max 810 MHz (by default Max 650MHz) by wloot
+• Reverted sched: crucial task placement strategy (caused performance regression observed on low fps in games)
+• Tunned PELT Scheduler to achieve better performance (jitter improved)
+• Checkout to 4.19 Android binder
+• Use Schedtune Assist 
+• Battery Improvements
+• kcal enabled
+• devfreq: Avoid competing with low-priority tasks
+• binder: checkout to android-4.19 
+• binder: Fix 4.19 binder compilation on 4.14 
+• UPSTREAM: binder: prevent UAF for binderfs devices I and II
+• ARM: dts: qcom: Enable allow-phy-poweroff
+• ARM: dts: xiaomi: minor cleanup
+• cpufreq: Kill userspace CPU boosting entirely 
+• mm: Disable readahead by default 
+• Makefile: Use -O3 optimization level
+• Makefile: Specify cortex-a55 for sm8150
+• selinux: Allow audit to be disabled 
+- **tytydraco sched optimizations**
+• sched: Do not give sleepers 50% more runtime 
+• sched: Ideally use 10ms scheduling periods
+• sched: Reduce the opportunity for sleepers to preempt
+• sched: Process new forks before processing their parent
+• sched: Do not reduce perceived CPU capacity while idle
